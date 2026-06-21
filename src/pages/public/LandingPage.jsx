@@ -63,6 +63,9 @@ function HeroSection() {
           </button>
         </div>
       </div>
+      <div className="hero-visual">
+        <img src={m2} alt="Studio Photo Hero" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      </div>
     </section>
   )
 }
